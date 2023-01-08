@@ -16,7 +16,8 @@ public class SQRServiceTest {
 
     @Test
     public void calcTestWhenSomeNumbersNotFinded() {
-        SQRService service = new SQRService();
+        SQRService service = new
+                SQRService();
         int actual = service.calc(10_000, 20_000);
         int expected = 0;
         Assertions.assertEquals(expected, actual);
